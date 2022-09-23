@@ -53,6 +53,13 @@ pip install -r requirements.txt
 - `PUBLIC_STRIPE_KEY` - зарегистрируйетсь в [Stripe](https://stripe.com/) и получите соответствующий API ключ в разделе developers
 - `SECRET_STRIPE_KEY` - зарегистрируйетсь в [Stripe](https://stripe.com/) и получите соответствующий API ключ в разделе developers
 
+для использования проекта в докере создайте рядом с файлом manage.py файл .env.db со след. настройками
+- `POSTGRES_NAME` - имя бд
+- `POSTGRES_USER`- имя юзера
+- `POSTGRES_PASSWORD`- пароль юзера
+- `POSTGRES_PORT`=5432
+- `POSTGRES_HOST`=db
+
 Применить миграции
 
 ```sh

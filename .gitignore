@@ -148,3 +148,4 @@ cython_debug/
 queries.py
 .idea
 vews_reserv.py
+.env.db
