@@ -3,4 +3,5 @@ djangorestframework==3.13.1
 environs==9.5.0
 psycopg2-binary==2.9.3
 stripe==4.1.0
+flake8==5.0.4
 
